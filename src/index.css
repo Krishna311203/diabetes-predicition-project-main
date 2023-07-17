@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rr{
+  border: 2px solid red;
+}
+.gg{
+  border: 2px solid rgb(0, 255, 55);
+}
+.bb{
+  border: 2px solid rgb(38, 0, 255);
+}
