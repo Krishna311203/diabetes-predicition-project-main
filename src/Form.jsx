@@ -57,7 +57,6 @@ const Form = () => {
               InputProps={{
                 style: {
                   borderRadius: "10px",
-                  
                 },
               }}
               label="Glucose Level"
@@ -80,7 +79,6 @@ const Form = () => {
               InputProps={{
                 style: {
                   borderRadius: "10px",
-                
                 },
               }}
               label="Blood Pressure value"
@@ -103,7 +101,6 @@ const Form = () => {
               InputProps={{
                 style: {
                   borderRadius: "10px",
-            
                 },
               }}
               label="Skin Thickness value"
@@ -126,7 +123,6 @@ const Form = () => {
               InputProps={{
                 style: {
                   borderRadius: "10px",
-                  
                 },
               }}
               label="Insulin Level"
@@ -143,7 +139,17 @@ const Form = () => {
             ) : null}
           </div>
 
-          <Button variant="outlined" type="submit">
+          <Button
+            variant="outlined"
+            type="submit"
+            style={{
+              borderRadius: 35,
+              backgroundColor: "#21b6ae",
+              color:"white",
+              padding: "10px 20px",
+              fontSize: "18px",
+            }}
+          >
             Submit
           </Button>
         </form>
