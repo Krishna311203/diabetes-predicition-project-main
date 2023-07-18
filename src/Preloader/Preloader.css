@@ -2,7 +2,7 @@
   font-size: 30px;
   animation-duration: 2.5s;
   animation-name: loading;
-  color: teal;
+  /* background-color: teal; */
 }
 
 @keyframes loading {
