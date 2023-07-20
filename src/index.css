@@ -2,12 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-.rr{
+body {
+  overflow-x: hidden;
+  background: #f5f5f5;
+}
+
+.rr {
   border: 2px solid red;
 }
-.gg{
+.gg {
   border: 2px solid rgb(0, 255, 55);
 }
-.bb{
+.bb {
   border: 2px solid rgb(38, 0, 255);
+}
+
+.profile-input-border {
+  border: 2px solid gray;
+  border-radius: 30px;
+}
+
+.materialUiGender:focus {
+  outline: none;
+}
+
+.box-shadow-navbar {
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.hero-back-bg {
+  background-image: url("./assets/home-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: black; */
+  opacity: 0.5;
+}
+.profile-image-bg {
+  /* margin-top: 20px; */
+  background-image: url("./assets/profile-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: black; */
+  opacity: 0.5;
+}
+
+
+
+.inner-hero-bg {
+  opacity: 1;
 }

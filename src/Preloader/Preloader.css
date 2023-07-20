@@ -1,24 +1,24 @@
-.loading-animation {
-  font-size: 30px;
-  animation-duration: 2.5s;
-  animation-name: loading;
-  /* background-color: teal; */
+.loading-animation{
+    font-size: 30px;
+    animation-duration: 2.5s;
+    animation-name: loading;
+
 }
 
 @keyframes loading {
-  0% {
-    font-size: 30px;
-  }
-  25% {
-    font-size: 38px;
-  }
-  50% {
-    font-size: 30px;
-  }
-  75% {
-    font-size: 38px;
-  }
-  100% {
-    font-size: 30px;
-  }
+    0%{
+        font-size: 30px;
+    }
+    25%{
+        font-size: 38px;
+    }
+    50%{
+        font-size: 30px;
+    }
+    75%{
+        font-size: 38px;
+    }
+    100%{
+        font-size: 30px;
+    }
 }
