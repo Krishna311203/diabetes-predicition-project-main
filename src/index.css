@@ -42,11 +42,17 @@ body {
   background-image: url("./assets/profile-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+    
+  
   /* background: black; */
   opacity: 0.5;
 }
 
-
+.data{
+  border: 2px solid gray;
+  border-radius: 30px;
+  margin: 10px 190px;
+}
 
 .inner-hero-bg {
   opacity: 1;
