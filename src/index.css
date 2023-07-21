@@ -31,21 +31,32 @@ body {
 }
 
 .hero-back-bg {
-  background-image: url("./assets/home-hero.jpg");
+  background-image: url("./assets/hero-back-blur.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* background: black; */
-  opacity: 0.5;
+  
 }
 .profile-image-bg {
   /* margin-top: 20px; */
-  background-image: url("./assets/profile-bg.jpeg");
+  background-image: url("./assets/profile-bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
     
   
   /* background: black; */
-  opacity: 0.5;
+  /* filter: grayscale(70%); */
+}
+
+.med-image-bg {
+  /* margin-top: 20px; */
+  background-image: url("./assets/med-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+  
+  /* background: black; */
+  /* filter: grayscale(70%); */
 }
 
 .data{
@@ -56,4 +67,8 @@ body {
 
 .inner-hero-bg {
   opacity: 1;
+}
+
+.profile-box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

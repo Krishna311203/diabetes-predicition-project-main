@@ -23,13 +23,13 @@ const Med = () => {
 
   return (
     <>
-      <div className=" absolute  bg-[#f5f5f5] flex items-center  justify-center w-screen h-[120vh] profile-image-bg"></div>
-      <div className="relative z-10  pt-5  flex flex-col items-center justify-center ">
-        <h3 className=" text-[25px] sm:text-[32px] text-center font-semibold mt-24 mb-10 text-[#3f2305] ">
+      <div className=" absolute  bg-[#f5f5f5] flex items-center  justify-center w-screen h-[120vh] med-image-bg">
+      <div className="relative z-10   bg-[#e6e6e6cf] px-3 sm:px-10 md:px-20 lg:px-32  pt-5  flex flex-col items-center justify-center data">
+        <h3 className=" text-[25px] sm:text-[32px] text-center font-semibold  mb-10 text-[#3f2305] ">
           Diabetes Prediction Information
         </h3>
 
-        <div className=" px-3  z-10 sm:px-14 md:px-28 lg:px-10  flex flex-col items-center justify-around gap-x-4 gap-y-5 sm:gap-y-14 flex-wrap ">
+        <div className=" px-3  z-10 sm:px-14 md:px-28 lg:px-10  flex flex-col items-center justify-around gap-x-4 gap-y-5 sm:gap-y-5 flex-wrap ">
           {/* input 1 */}
 
           {/* <input
@@ -153,6 +153,7 @@ const Med = () => {
         <button className=" mt-10 mb-10 bg-[#3f2305] text-[15px] sm:text-[20px] profile-input-border py-3  text-white font-semibold w-[120px]">
           Submit
         </button>
+      </div>
       </div>
     </>
   );

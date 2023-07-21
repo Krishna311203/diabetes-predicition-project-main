@@ -1,5 +1,6 @@
 import React from "react";
 import { useFormik } from "formik";
+import { Link } from "react-router-dom";
 
 const Profile = () => {
   let initialValues = {
@@ -28,9 +29,10 @@ const Profile = () => {
 
   return (
     <>
-      <div className=" absolute toprr z-0 bg-[red] flex items-center justify-center w-screen profile-image-bg">
-      <div className="absolute top-0 z-10 bg-[blue]  flex flex-col items-center justify-center  py-5 data ">
-        <h3 className=" text-[25px] sm:text-[32px] text-center font-semibold mt-14 mb-10 text-[#3f2305] ">
+      <div className=" relative py-12 z-10 flex items-center justify-center w-screen profile-image-bg">
+    
+      <div className=" z-20 py-10  bg-[#e6e6e6cf] px-3 sm:px-10 md:px-20 lg:px-32 profile-box-shadow  flex flex-col items-center justify-center   data ">
+        <h3 className=" text-[25px] sm:text-[32px] text-center font-semibold  mb-10 text-[#3f2305] ">
           Personal Information
         </h3>
 
@@ -157,7 +159,7 @@ const Profile = () => {
           */}
         </div>
         <button className=" mt-10 bg-[#3f2305] text-[15px] sm:text-[20px] profile-input-border py-3  text-white font-semibold w-[120px]">
-          Submit
+         <Link to='/med'>Next</Link> 
         </button>
       </div>
       </div>
