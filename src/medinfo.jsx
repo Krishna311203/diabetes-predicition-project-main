@@ -119,7 +119,6 @@ const Med = () => {
                 value={values.fats}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                
               />
               <span className="units">gm</span>
             </div>
