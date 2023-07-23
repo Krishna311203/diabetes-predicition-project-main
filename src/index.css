@@ -48,6 +48,22 @@ body {
   /* filter: grayscale(70%); */
 }
 
+.units{
+  font-weight: 500;
+  color: #808080a3;
+  margin-left: -55px;
+  position:relative;
+  top:-2px;
+
+}
+.unitsblood{
+  font-weight: 500;
+  color: #808080a3;
+  margin-left: -70px;
+  position:relative;
+  top:-2px;
+
+}
 .med-image-bg {
   /* margin-top: 20px; */
   background-image: url("./assets/med-bg.jpg");
